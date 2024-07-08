@@ -8,10 +8,10 @@ $(function() {
   });
 
   $('#fade-out').on('click', function(){
-    $('#target').css('opacity', 0);
+    $('#target').fadeOut();
   });
 
   $('#fade-in').on('click', function(){
-    $('#target').css('opacity', 1);
+    $('#target').fadeIn();
   });
 });
